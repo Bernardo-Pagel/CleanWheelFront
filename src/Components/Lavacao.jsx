@@ -1,6 +1,5 @@
 import IcoAlbum from '../Assets/IcoAlbum';
-import IcoCategory from '../Assets/IcoCategory';
-import IcoCar from '../Assets/IcoCar';
+import IcoStar from '../Assets/IcoStar';
 import IcoSchedule from '../Assets/IcoSchedule';
 import IcoPhone from '../Assets/IcoPhone';
 import IcoLocation from '../Assets/IcoLocation';
@@ -8,10 +7,10 @@ import IcoLocation from '../Assets/IcoLocation';
 import Title from './Title';
 import imgCarWash from '../Images/carwash1.jpg';
 
-const Schedule = () => {
+const Lavacao = () => {
   return (
     <main className="w-full min-h-screen bg-c11">
-      <Title title="AGENDA" subtitle="seus agendamentos" />
+      <Title title="Lavacao" subtitle="solicite um serviço" />
       <div className="mx-[100px] grid grid-cols-3 gap-[20px]">
         <div className="flex justify-beetwen">
           <div className="w-fit h-full pl-[18px] pr-[16px] py-[16px] bg-w">
@@ -24,36 +23,27 @@ const Schedule = () => {
                   Brian Auto Wash
                 </p>
               </div>
-              <div className="col-end">
-                <p className="font-poppins text-2cs text-c11">R$ 85,00</p>
-              </div>
             </div>
             <div className="grid grid-cols-2">
               <div className="ml-[40px] col-start">
                 <div className="mr-[16px] grid grid-flow-row auto-rows-max">
                   <div className="inline-flex">
                     <span className="pt-[4px] mr-[8px]">
-                      <IcoCategory />
+                      <IcoStar />
                     </span>
-                    <p>Lavação</p>
-                  </div>
-                  <div className="inline-flex">
-                    <span className="pt-[4px] mr-[8px]">
-                      <IcoCar />
-                    </span>
-                    <p>Carro</p>
-                  </div>
-                  <div className="inline-flex">
-                    <span className="pt-[4px] mr-[8px]">
-                      <IcoSchedule />
-                    </span>
-                    <p>12/07/2024 - 13:30</p>
+                    <p>4 Estrelas</p>
                   </div>
                   <div className="inline-flex">
                     <span className="pt-[4px] mr-[8px]">
                       <IcoPhone />
                     </span>
                     <p>(47) 9999-9999</p>
+                  </div>
+                  <div className="inline-flex">
+                    <span className="pt-[4px] mr-[8px]">
+                      <IcoSchedule />
+                    </span>
+                    <p>12/07/2024 - 13:30</p>
                   </div>
                   <div className="inline-flex">
                     <span className="pt-[4px] mr-[8px]">
@@ -81,4 +71,4 @@ const Schedule = () => {
   );
 };
 
-export default Schedule;
+export default Lavacao;

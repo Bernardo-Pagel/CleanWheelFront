@@ -1,7 +1,7 @@
 import imgLandPage from '../Images/senna.jpg';
 const LandingPage = () => {
   return (
-    <main className="w-full min-h-screen bg-c11 ps-100px grid grid-cols-2">
+    <main className="w-full min-h-screen bg-c11 ps-100px grid grid-cols-2 gap-[20px]">
       <div className="col-start place-self-center">
         <h1 className="font-poppins text-1-xxl text-w pb-46px">
           Nós agendamos seus serviços <span className="text-p1">.</span>
@@ -17,7 +17,7 @@ const LandingPage = () => {
         </button>
       </div>
       <img
-        className="col-end place-self-center drop-shadow-md"
+        className="w-[640px] h-[460px] col-end place-self-center drop-shadow-md"
         src={imgLandPage}
         alt="Senna.jpg"
       />

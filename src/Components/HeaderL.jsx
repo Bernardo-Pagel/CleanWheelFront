@@ -6,7 +6,7 @@ const HeaderL = () => {
     <header className="w-full h-165px bg-c12 text-100px">
       <nav className="w-full h-full m-0 px-100px grid grid-cols-2 items-center">
         <div className="col-start">
-          <Link className={`${styles.logo} text-w`} to="/">
+          <Link className={`${styles.logo} text-w`} to="/home">
             Clean Wheel
           </Link>
         </div>
